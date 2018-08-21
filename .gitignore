@@ -1,0 +1,13 @@
+# Logs
+logs
+*.Logs
+
+# Directories
+build/
+bundle.js
+
+# Dependencies
+node_modules/
+
+# Files
+var.sh
