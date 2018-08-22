@@ -1,0 +1,56 @@
+.home-wrapper {
+  padding: 20px !important;
+  width: 100%;
+  background-color: #493382; }
+  .home-wrapper .jumbotron {
+    background-color: #493382;
+    color: white; }
+  .home-wrapper button {
+    background-color: #5e42a6;
+    border-color: white; }
+    .home-wrapper button:hover, .home-wrapper button:focus, .home-wrapper button:active {
+      background-color: #493382;
+      border-color: white; }
+
+.about-wrapper {
+  background-color: #5052b5;
+  padding: 20px !important;
+  width: 100%; }
+
+.experiments-wrapper {
+  background-color: #b74e91; }
+
+.navbar-gryphone {
+  background-color: #312450;
+  border: 0 !important;
+  border-radius: 0 !important;
+  margin-bottom: 0 !important; }
+  .navbar-gryphone .navbar-toggle {
+    border-color: white; }
+    .navbar-gryphone .navbar-toggle:hover {
+      background-color: #493382; }
+    .navbar-gryphone .navbar-toggle .icon-bar {
+      background-color: white; }
+  .navbar-gryphone .navbar-brand {
+    color: white; }
+    .navbar-gryphone .navbar-brand:hover {
+      color: #5e42a6; }
+  .navbar-gryphone .navbar-nav li > a {
+    color: white; }
+    .navbar-gryphone .navbar-nav li > a:hover, .navbar-gryphone .navbar-nav li > a:focus {
+      background-color: #5e42a6; }
+
+#app {
+  background-color: lightgray; }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px; } }
+
+@media (min-width: 992px) {
+  .container {
+    width: 992px; } }
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px; } }

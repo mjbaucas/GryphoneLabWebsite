@@ -1,0 +1,21 @@
+@import '../utils/colors';
+
+.home-wrapper {
+    padding: 20px !important;
+    width: 100%;
+    background-color: $purple;
+
+    .jumbotron {
+        background-color: $purple;
+        color: white;
+    }
+
+    button {
+        background-color: $purple-light;
+        border-color: white;
+        &:hover, &:focus, &:active {
+            background-color: $purple;
+            border-color: white;
+        }
+    }
+}

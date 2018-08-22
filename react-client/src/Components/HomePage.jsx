@@ -4,7 +4,7 @@ import { Jumbotron, Button, Grid, Carousel } from 'react-bootstrap';
 class HomePage extends Component {
     render() {
         return (
-            <Grid>
+            <Grid className="home-wrapper">
                 <Jumbotron>
                 <h1>GryPhone Lab</h1>
                 <p>

@@ -1,0 +1,34 @@
+@import '../utils/colors';
+
+.navbar-gryphone {
+    background-color: $purple-dark;
+    border: 0 !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+
+    .navbar-toggle {
+        border-color: white;
+        &:hover {
+            background-color: $purple;
+        }
+        .icon-bar {
+            background-color: white;
+        }
+    }
+
+    .navbar-brand{
+        color: white;
+        &:hover {
+            color: $purple-light;
+        }
+    }
+
+    .navbar-nav{
+        li > a {
+            color: white;
+            &:hover, &:focus {
+                background-color: $purple-light;
+            }
+        }
+    }
+}

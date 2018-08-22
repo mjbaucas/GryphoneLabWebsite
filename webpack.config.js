@@ -3,7 +3,7 @@ const SRC_DIR = path.join(__dirname, '/react-client/src');
 const DIST_DIR = path.join(__dirname, '/react-client/dist');
 const webpack = require('webpack');
 module.exports = {
-  entry: `${SRC_DIR}/index.jsx`,
+  entry: [`${SRC_DIR}/index.jsx`, `${SRC_DIR}/Styles/styles.scss`],
   output: {
     path: DIST_DIR,
     filename: 'bundle.js',
@@ -31,7 +31,37 @@ module.exports = {
         loader : 'babel-loader',      
         query: {
           presets: ['react', 'es2015']
-       }
+        },
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].css',
+            }
+          },
+          {
+            loader: 'extract-loader'
+          },
+          {
+            loader: 'css-loader'
+          },
+          {
+            loader: 'postcss-loader',
+            options : 
+            {
+              config : 
+              {
+                path: './postcss.config.js'
+              }
+            }
+          },
+          {
+            loader: 'sass-loader'
+          }
+        ]
       }
     ]
   },

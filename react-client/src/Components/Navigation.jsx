@@ -11,7 +11,7 @@ class Navigation extends Component {
     }
     render() {
         return (
-            <Navbar collapseOnSelect>
+            <Navbar collapseOnSelect bsStyle='gryphone'>
                 <Navbar.Header>
                     <Navbar.Brand>
                         <a href="#">Gryphone Lab</a>

@@ -5,7 +5,7 @@ import { Row, Grid, Col, Panel, PageHeader, Well } from 'react-bootstrap';
 class Experiments extends Component {
     render() {
         return (
-            <Grid> 
+            <Grid className="experiments-wrapper"> 
                 <Col>
                     <PageHeader>Experiments</PageHeader>
                     <Well>The GryPhone Lab is a public smartphone testbed open to researchers and University studetns. 

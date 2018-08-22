@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { Row, Grid, Col, Panel, PageHeader } from 'react-bootstrap';
 
-
 class About extends Component {
     render() {
         return (
-            <Grid>
+            <Grid className="about-wrapper">
                 <Col>
                     <PageHeader>About</PageHeader>
                 </Col>
