@@ -5,20 +5,50 @@
   .home-wrapper .jumbotron {
     background-color: #493382;
     color: white; }
-  .home-wrapper button {
+  .home-wrapper .btn-more {
+    color: white;
     background-color: #5e42a6;
     border-color: white; }
-    .home-wrapper button:hover, .home-wrapper button:focus, .home-wrapper button:active {
-      background-color: #493382;
+    .home-wrapper .btn-more:hover, .home-wrapper .btn-more:focus {
+      color: white;
+      background-color: #312450;
       border-color: white; }
+    .home-wrapper .btn-more:focus {
+      outline: 1px solid white;
+      outline-offset: -4px; }
 
 .about-wrapper {
   background-color: #5052b5;
   padding: 20px !important;
   width: 100%; }
+  .about-wrapper div > .page-header {
+    color: white; }
+  .about-wrapper div > .panel-about .panel-heading {
+    background-color: #493382;
+    color: white;
+    font-size: 20px; }
+  .about-wrapper div > .panel-about .panel-body {
+    padding: 14px; }
+    .about-wrapper div > .panel-about .panel-body p {
+      text-align: justify;
+      font-size: 16px; }
 
 .experiments-wrapper {
   background-color: #b74e91; }
+  .experiments-wrapper div > .page-header {
+    color: white; }
+  .experiments-wrapper div > .well {
+    text-align: justify;
+    font-size: 16px; }
+  .experiments-wrapper div > .panel-experiments .panel-heading {
+    background-color: #af1c5c;
+    color: white;
+    font-size: 20px; }
+  .experiments-wrapper div > .panel-experiments .panel-body {
+    padding: 14px; }
+    .experiments-wrapper div > .panel-experiments .panel-body p {
+      text-align: justify;
+      font-size: 16px; }
 
 .navbar-gryphone {
   background-color: #312450;

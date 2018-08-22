@@ -1,5 +1,30 @@
 @import '../utils/colors';
 
 .experiments-wrapper {
-    background-color: #b74e91;
+    background-color: $pink;
+
+    div > .page-header {
+        color: white;
+    }
+
+    div > .well {
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    div > .panel-experiments {
+        .panel-heading {
+            background-color: $pink-dark;
+            color: white;
+            font-size: 20px;
+        }
+        .panel-body {
+            padding: 14px;
+
+            p {
+                text-align: justify;
+                font-size: 16px;
+            }
+        }
+    }
 }

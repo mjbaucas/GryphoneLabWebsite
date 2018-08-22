@@ -10,12 +10,20 @@
         color: white;
     }
 
-    button {
+    .btn-more {
+        color: white;
         background-color: $purple-light;
         border-color: white;
-        &:hover, &:focus, &:active {
-            background-color: $purple;
+
+        &:hover, &:focus {
+            color: white;
+            background-color: $purple-dark;
             border-color: white;
+        }
+
+        &:focus {
+            outline: 1px solid white;
+            outline-offset: -4px;
         }
     }
 }

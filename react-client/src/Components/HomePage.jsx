@@ -11,7 +11,7 @@ class HomePage extends Component {
                     Have a great idea for an Android App? Join us to start evaluating it!
                 </p>
                 <p>
-                    <Button bsStyle="primary">Learn more</Button>
+                    <Button bsStyle="more" href="/#/about">Learn more</Button>
                 </p>
                 </Jumbotron>
                 {/*<Carousel>

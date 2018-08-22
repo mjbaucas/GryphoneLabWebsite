@@ -1,7 +1,27 @@
 @import '../utils/colors';
 
 .about-wrapper {
-    background-color: #5052b5;
+    background-color: $blue;
     padding: 20px !important;
     width: 100%;
+
+    div > .page-header {
+        color: white;
+    }
+
+    div > .panel-about {
+        .panel-heading {
+            background-color: $purple;
+            color: white;
+            font-size: 20px;
+        }
+        .panel-body {
+            padding: 14px;
+
+            p {
+                text-align: justify;
+                font-size: 16px;
+            }
+        }
+    }
 }
