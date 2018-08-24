@@ -1,15 +1,17 @@
 @import '../utils/colors';
 
 .about-wrapper {
+    padding: 20px 60px !important;
     background-color: $blue;
-    padding: 20px !important;
-    width: 100%;
+    width: 100% !important;
 
     div > .page-header {
         color: white;
     }
 
     div > .panel-about {
+        box-shadow: 5px 5px 10px $purple-dark;
+
         .panel-heading {
             background-color: $purple;
             color: white;
@@ -25,3 +27,4 @@
         }
     }
 }
+

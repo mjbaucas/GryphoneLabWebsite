@@ -1,7 +1,9 @@
 @import '../utils/colors';
 
 .experiments-wrapper {
+    padding: 20px 60px !important;
     background-color: $pink;
+    width: 100% !important;
 
     div > .page-header {
         color: white;
@@ -13,6 +15,8 @@
     }
 
     div > .panel-experiments {
+        box-shadow: 5px 5px 10px $pink-purple;
+
         .panel-heading {
             background-color: $pink-dark;
             color: white;

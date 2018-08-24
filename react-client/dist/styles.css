@@ -1,6 +1,6 @@
 .home-wrapper {
-  padding: 20px !important;
-  width: 100%;
+  padding: 20px 60px !important;
+  width: 100% !important;
   background-color: #493382; }
   .home-wrapper .jumbotron {
     background-color: #493382;
@@ -18,43 +18,51 @@
       outline-offset: -4px; }
 
 .about-wrapper {
+  padding: 20px 60px !important;
   background-color: #5052b5;
-  padding: 20px !important;
-  width: 100%; }
+  width: 100% !important; }
   .about-wrapper div > .page-header {
     color: white; }
-  .about-wrapper div > .panel-about .panel-heading {
-    background-color: #493382;
-    color: white;
-    font-size: 20px; }
-  .about-wrapper div > .panel-about .panel-body {
-    padding: 14px; }
-    .about-wrapper div > .panel-about .panel-body p {
-      text-align: justify;
-      font-size: 16px; }
+  .about-wrapper div > .panel-about {
+    box-shadow: 5px 5px 10px #312450; }
+    .about-wrapper div > .panel-about .panel-heading {
+      background-color: #493382;
+      color: white;
+      font-size: 20px; }
+    .about-wrapper div > .panel-about .panel-body {
+      padding: 14px; }
+      .about-wrapper div > .panel-about .panel-body p {
+        text-align: justify;
+        font-size: 16px; }
 
 .experiments-wrapper {
-  background-color: #b74e91; }
+  padding: 20px 60px !important;
+  background-color: #b74e91;
+  width: 100% !important; }
   .experiments-wrapper div > .page-header {
     color: white; }
   .experiments-wrapper div > .well {
     text-align: justify;
     font-size: 16px; }
-  .experiments-wrapper div > .panel-experiments .panel-heading {
-    background-color: #af1c5c;
-    color: white;
-    font-size: 20px; }
-  .experiments-wrapper div > .panel-experiments .panel-body {
-    padding: 14px; }
-    .experiments-wrapper div > .panel-experiments .panel-body p {
-      text-align: justify;
-      font-size: 16px; }
+  .experiments-wrapper div > .panel-experiments {
+    box-shadow: 5px 5px 10px #770838; }
+    .experiments-wrapper div > .panel-experiments .panel-heading {
+      background-color: #af1c5c;
+      color: white;
+      font-size: 20px; }
+    .experiments-wrapper div > .panel-experiments .panel-body {
+      padding: 14px; }
+      .experiments-wrapper div > .panel-experiments .panel-body p {
+        text-align: justify;
+        font-size: 16px; }
 
 .navbar-gryphone {
   background-color: #312450;
   border: 0 !important;
   border-radius: 0 !important;
   margin-bottom: 0 !important; }
+  .navbar-gryphone .container {
+    width: 100% !important; }
   .navbar-gryphone .navbar-toggle {
     border-color: white; }
     .navbar-gryphone .navbar-toggle:hover {
