@@ -2,12 +2,12 @@
 
 .home-wrapper {
     padding: 20px 60px !important;
-    width: 100% !important;
     background-color: $purple;
 
     .jumbotron {
-        background-color: $purple;
+        background-color: $purple-dark;
         color: white;
+        border-radius:  4px !important;
     }
 
     .btn-more {
@@ -26,4 +26,8 @@
             outline-offset: -4px;
         }
     }
+
+    // .panel-home {
+
+    // }
 }

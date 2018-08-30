@@ -1,10 +1,10 @@
 .home-wrapper {
   padding: 20px 60px !important;
-  width: 100% !important;
   background-color: #493382; }
   .home-wrapper .jumbotron {
-    background-color: #493382;
-    color: white; }
+    background-color: #312450;
+    color: white;
+    border-radius: 4px !important; }
   .home-wrapper .btn-more {
     color: white;
     background-color: #5e42a6;
@@ -19,8 +19,7 @@
 
 .about-wrapper {
   padding: 20px 60px !important;
-  background-color: #5052b5;
-  width: 100% !important; }
+  background-color: #5052b5; }
   .about-wrapper div > .page-header {
     color: white; }
   .about-wrapper div > .panel-about {
@@ -37,8 +36,7 @@
 
 .experiments-wrapper {
   padding: 20px 60px !important;
-  background-color: #b74e91;
-  width: 100% !important; }
+  background-color: #b74e91; }
   .experiments-wrapper div > .page-header {
     color: white; }
   .experiments-wrapper div > .well {
@@ -55,6 +53,9 @@
       .experiments-wrapper div > .panel-experiments .panel-body p {
         text-align: justify;
         font-size: 16px; }
+
+.navbar-wrapper {
+  padding: 0px !important; }
 
 .navbar-gryphone {
   background-color: #312450;
@@ -79,7 +80,7 @@
       background-color: #5e42a6; }
 
 #app {
-  background-color: lightgray; }
+  background-color: black; }
 
 @media (min-width: 1200px) {
   .container {

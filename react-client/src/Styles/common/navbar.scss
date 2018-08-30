@@ -1,5 +1,9 @@
 @import '../utils/colors';
 
+.navbar-wrapper {
+    padding: 0px !important;
+}
+
 .navbar-gryphone {
     background-color: $purple-dark;
     border: 0 !important;
