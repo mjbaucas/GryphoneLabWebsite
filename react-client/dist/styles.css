@@ -16,6 +16,29 @@
     .home-wrapper .btn-more:focus {
       outline: 1px solid white;
       outline-offset: -4px; }
+  .home-wrapper .col-fill {
+    display: flex;
+    flex-direction: column; }
+  .home-wrapper .col-left {
+    padding: 0; }
+  .home-wrapper .col-right {
+    padding: 0; }
+  .home-wrapper .panel-home {
+    flex-grow: 1;
+    border-radius: 2px; }
+  @media (min-width: 768px) {
+    .home-wrapper .row-eq-height {
+      display: flex; }
+    .home-wrapper .col-left {
+      display: flex;
+      flex-direction: column;
+      padding-left: 0px;
+      padding-right: 10px; }
+    .home-wrapper .col-right {
+      display: flex;
+      flex-direction: column;
+      padding-left: 10px;
+      padding-right: 0px; } }
 
 .about-wrapper {
   padding: 20px 60px !important;
